@@ -21,9 +21,7 @@ const SearchFeed = () => {
       </Typography>
       <Box display="flex">
         <Box sx={{ mr: { sm: '100px' } }}/>
-        <iframe width="420" height="315"
-      src="https://www.youtube.com/embed/tgbNymZ7vqY">
-      </iframe>
+        {<Videos videos={videos} />}
       </Box>
      
       
