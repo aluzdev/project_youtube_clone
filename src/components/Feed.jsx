@@ -30,7 +30,10 @@ const Feed = () => {
           {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span>
         </Typography>
 
-        <Videos videos={videos} />
+        <iframe width="420" height="315"
+        title="idkman"
+      src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe>
       </Box>
     </Stack>
   );
