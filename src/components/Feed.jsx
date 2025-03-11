@@ -26,10 +26,17 @@ const Feed = () => {
           {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span>
         </Typography>
 
+      <div style={{display: "flex", gap: "20px"}}>
         <iframe width="420" height="315"
         title="te doy gloria"
       src="https://www.youtube.com/embed/cWmKHl0axec">
       </iframe>
+
+      <iframe width="420" height="315"
+        title="cuan grande es Dios"
+      src="https://www.youtube.com/embed/yU2SeGSj7II">
+      </iframe>
+      </div>
       </Box>
     </Stack>
   );
